@@ -1,0 +1,49 @@
+.fondo {
+    background-color: rgb(142, 196, 196);
+}
+
+.miTexto{
+    font-size: 80px;
+    color: green;
+}
+
+article{
+    font-size: 40px;
+    color: rgb(65, 30, 30);
+}
+
+#enlace{
+    font-size: 40px;
+    text-shadow: 0cqmax;
+}
+
+.logo{
+    width: 400px;
+}
+
+.titulos{
+    border: 2px solid black;
+    margin: auto;
+    background-color: green;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+.titulos:hover{
+    background-color: aliceblue;
+}
+
+#pages{
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 15%;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2em;
+}
