@@ -6,6 +6,7 @@ function tienenMismaLongitud(str1, str2) {
   // "SoyHenry", "HenrySoy" ---> true 
   // "hi", "there" ---> false 
   // Tu código:
+  return String(str1).length === String(str2).length;
 }
 
 module.exports = tienenMismaLongitud;
